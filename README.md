@@ -152,8 +152,10 @@ let T = new Twit({
 ```js
 let stream = T.stream('statuses/filter', {
   track: [
-    '@wethinkcode',
-    '@mikegeyser'
+    '@BBDSoftware',
+    '@mikegeyser',
+    '@bbddevplus',
+    '#BBDEscape',
   ].join(','),
   language: 'en'
 });
@@ -252,7 +254,7 @@ let emit = (tweets) => Observable.create(observer => {
 });
 ```
 
-> # _service_tweet_5
+> # _service_tweet_6
 ```ts
 this.tweets = get.switchMap(x => emit(x));
 ```

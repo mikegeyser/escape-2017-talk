@@ -51,9 +51,10 @@
 		"body": [
 			"let stream = T.stream('statuses/filter', {",
 			"  track: [",
-			"    '@DeveloperUG',",
 			"    '@BBDSoftware',",
-			"    '@mikegeyser'",
+			"    '@mikegeyser',",
+			"    '@bbddevplus',",
+			"    '#BBDEscape'",
 			"  ].join(','),",
 			"  language: 'en'",
 			"});"
